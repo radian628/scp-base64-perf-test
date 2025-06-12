@@ -1,3 +1,3 @@
 npm install
 npx playwright install
-node test.mjs
+node test.mjs 25

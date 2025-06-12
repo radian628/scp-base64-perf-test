@@ -1,7 +1,7 @@
 import playwright from "playwright";
 import { playAudit } from "playwright-lighthouse";
 
-const TRIALS = 25;
+const TRIALS = Number(process.argv[2]);
 
 async function generatePage(pagelink, port) {
   const browser = await playwright.chromium.launch({
