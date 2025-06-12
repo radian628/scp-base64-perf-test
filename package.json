@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "lighthouse": "^12.6.1",
+    "playwright": "^1.53.0",
+    "playwright-lighthouse": "^4.0.0"
+  }
+}
