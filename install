@@ -2,6 +2,6 @@ git clone https://github.com/radian628/scp-base64-perf-test.git
 cd scp-base64-perf-test
 npm install
 npx playwright install
-node test.mjs 25
+node test.mjs 50
 cd ..
 node ./scp-base64-perf-test/uninstall.mjs
